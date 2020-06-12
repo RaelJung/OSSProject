@@ -1,5 +1,5 @@
 #OSS Final Project
-This repo is for OSS class final project.
+This repo is for OSS class 03 section final project.
 made by 21900658 Rael Jung.
 #Project Information
 1 Go to myblog.com.
