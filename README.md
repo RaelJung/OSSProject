@@ -1,35 +1,21 @@
 #OSS Final Project
-
 This repo is for OSS class 03 section final project.
-
 made by 21900658 Rael Jung.
-
 #Project Information
-
 1 Go to myblog.com.
-
 2 See the posts.
-
 3 Go to myblog.com/admin.
-
-4 login use id : cat password : cat
-
-5 add some post freely!
-
-#Question
-
+4 login use id : cat, password : cat.
+5 Add some post freely!
+#Question about project
 1 What does this project do?
-
-*This project runs a website that shows information about the characters in the Nintendo game Animal Crossing.
-
-*Various users can be managed by the administrator, giving them permission to write and edit the post.
-
+*This project runs a website that introduce information about the characters of the Nintendo game Animal Crossing.
+*It also allows other people to post or edit posts freely if they log in.
 2 Why is this project useful?
-
-*As people's interest in Animal Crossing is increasing, websites that exchange information are inevitable.
-
-*I think that it can be usedd by many people because they can post and edit it themselves, and even post comments on other people's posts.
-
-3 Where can I get more help, if I need it?
-
+*Since Animal Crossing is a popular game these days, people will visit thhis website a lot because they will need information about this game.
+*It is good for many people to use steadily because it can communicate through posting and commenting functions.
+3 How do I get started?
+*You can just start go to myblog.com.
+*If you want to post some information, go to myblog.com/admin and log in.
+4 Where can I get more help, if I need it?
 *Send me an email. (21900658@handong.edu)
