@@ -11,11 +11,43 @@ link : https://www.youtube.com/watch?v=ROuToU4yPhE
 - Since Animal Crossing is a popular game these days, people will visit this website a lot because they will need information about this game. 
 - It is good for many people to use steadily because it can communicate through posting and commenting functions. 
 # How to start project? 
-1. You can just start go to myblog.com.
-2. See the posts and enjoy it! 
-3. If you want to post some information, go to myblog.com/admin and log in. 
-4. You can use guest account. (id : guest, password : guest)
-5. Add some post and communicate with other people!
+1. Before start, we should set the raspberry pi.
+- Log in to your raspberry pi.
+- Use sudo su - command.
+- Create an account to use as the blog's domain. 
+2. Install file.
+- Install Nginx HTTP Server:
++ sudo su -
++ apt update
++ apt install nginx
++ service nginx restart
+- Install PHP 7.3 and Related Modules
++ apt install software-properties-common
++ apt update
++ apt install php7.3-fpm php7.3-common php7.3-mbstring php7.3-xmlrpc php7.3-sqlite3 php7.3-soap php7.3-gd php7.3-xml php7.3-cli php7.3-curl php7.3-zip
+3. Configure Nginx Batflat Site
+- cd /etc/nginx/sites-available
+- vi myblog.com *I have upload this file on git*
+- cd /etc/nginx/sites-available/myblog.com myblog.com
+- nginx -t
+- service nginx restart
+4. Download Batflat
+**You shold log in personal account raspberry pi which you made in first step!**
+- cd ~/html
+- wget https://github.com/sruupl/batflat/archive/master.zip
+- unzip master.zip
+- mv batflat-master blog
+- cd blog
+- mk dir ./tmp
+- mk dir ./admin/tmp
+- chmod -R 777 ./uploads ./inc/data ./adim/tmp ./tmp
+5. Go into your local account
+- Go into local host file
+- Enter the domain of myblog.com
+6. Want to change blog content 
+- Go to myblog.com/admin and log in. 
+- First id and pw : admin
+- Add some post and communicate with other people!
 # Need help?
 Just send me an email. (21900658@handong.edu)
 **THANK YOU!**
