@@ -1,4 +1,4 @@
-![Alt text](//Users/rael/Downloads/logo.png)
+![logo](https://user-images.githubusercontent.com/64372881/84566555-0e5aca80-adad-11ea-92ee-0bf457cc8ff1.png)
 # OSS Final Project
 This repo is for OSS class 03 section final project.
 Made by 21900658 Rael Jung. 
