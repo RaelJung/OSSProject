@@ -1,3 +1,4 @@
+![Alt text](//Users/rael/Downloads/logo.png)
 # OSS Final Project
 This repo is for OSS class 03 section final project.
 Made by 21900658 Rael Jung. 
